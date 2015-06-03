@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="icon" href="icon.png" type="image/png" sizes="62x62">
+	<title>Tic Tac Toe</title>
+	<link rel="stylesheet" href="index.css">
+	<script src="jquery-1.11.2.min.js"></script>
+	<script src="ai.js"></script>
+	<script src="game.js" asyn></script>
+</head>
+<body>
+	<div id="overlay">
+		<span style="padding-top:20px;">Welcome to Tic Tac Toe!</span><br>
+		<div class="player person"> <span>Player</span></div>
+		<span style="font-size:8em;">/</span>
+		<div class="player computer"> <span>Computer</span></div>
+	</div>
+	<div id="wrapper">
+		<div id="info" class="container">
+			<div class="player first">
+			<span> Player </span><br>
+			<span class="score">score = 0</span>
+			</div>
+			<div class="player second">
+			<span > Computer </span><br>
+			<span class="score">score = 0</span>
+		</div>
+		</div>
+		<div class="container">
+			<div id="board">
+				<div class="frame"></div>
+				<div class="frame"></div>
+				<div class="frame"></div>
+				<div class="frame"></div>
+				<div class="tile" data="1"></div>
+				<div class="tile" data="2"></div>
+				<div class="tile" data="3"></div>
+				<div class="tile" data="4"></div>
+				<div class="tile" data="5"></div>
+				<div class="tile" data="6"></div>
+				<div class="tile" data="7"></div>
+				<div class="tile" data="8"></div>
+				<div class="tile" data="9"></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
