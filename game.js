@@ -80,11 +80,11 @@ function playAgain () {
 	updateScore();
 	
 	if(confirm("Do You Want To Play Again")){
-		setTimeout(start, 1000);
+		setTimeout(start, 500);
 	}
-	// else{
-	// 	window.close();
-	// }
+	else{
+		window.close();
+	}
 }
 
 function isPlayerWon(tile, id){
