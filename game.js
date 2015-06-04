@@ -51,7 +51,7 @@ function start(){
 	$("#info").children('.second').removeClass('active');
 	
 	var x = Math.floor(Math.random()*10);
-	if(x>0){
+	if(x>5){
 		id = 1;
 		alert($("#info").children('.first').children("span").first().text()+" will be "+symbol[sot]);
 		$("#info").children('.first').addClass('active');
