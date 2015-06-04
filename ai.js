@@ -9,9 +9,11 @@ function getCopyTile(){
 
 function getComputerMove () {
 
-	$("#info").children('.first').addClass('active');
-	$("#info").children('.first').removeClass('active');
-	id=1;
+	setTimeout(function () {
+		$("#info").children('.first').addClass('active');
+		$("#info").children('.second').removeClass('active');
+		id=1;
+	})
 	
 	// AI to select move for winning the game
 	for(var i=0;i<3;i++){
