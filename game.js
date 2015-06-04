@@ -80,7 +80,7 @@ function playAgain () {
 	updateScore();
 	
 	if(confirm("Do You Want To Play Again")){
-		setTimeout(start, 500);
+		setTimeout(start, 600);
 	}
 	else{
 		window.close();
